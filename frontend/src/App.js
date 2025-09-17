@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function App() {
-  const API = "http://localhost:5000/employees";
+  const API = "http://172.21.204.246:5000/employees";
   const [employees, setEmployees] = useState([]);
   const [form, setForm] = useState({ name: "", role: "", salary: "" });
 
